@@ -63,7 +63,7 @@ def get_download_url():
     Get chromedriver download url
     """
     os_name_path = check_os()
-    url = "https://chromedriver.chromium.org/downloads"
+    url = "https://sites.google.com/chromium.org/driver/downloads"
     resp = request.urlopen(url)
     soup = BeautifulSoup(resp, 'html.parser')
     links = [a['href'] for a in soup.select('a[href]')]
