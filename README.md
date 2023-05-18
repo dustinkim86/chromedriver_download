@@ -6,7 +6,7 @@
   - check 해 본 os 환경 : intel mac, m1 mac, windows 10
 <br/><br/>
 ## Step
-1. bs4 Module Download : `pip install bs4`
+1. Module 설치 : `pip install -r requirements.txt`
 2. python file 실행 : `python download_chromedriver.py`
 3. 생성된 chromedriver 폴더 내 드라이버 확인
 ### 끝.
